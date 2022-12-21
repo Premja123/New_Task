@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="index.js"></script>
     <title>Document</title>
-</head>
-<body>
-    <h1 class="heading">Hellooooo....</h1>
-</body>
+  </head>
+  <body>
+    <div class="Top_nav_bar">
+        <div class="navigation">
+          <div class="hamburger">
+            <i class="menuIcon material-icons">&#9776;</i>
+            <i class="closeIcon material-icons">&#10006;</i>
+          </div>
+          <ul class="menu">
+                <div class="nav_screen">
+                <a href="#"><div class="block">Name</div></a>
+                <a href="#"><div class="block">Bio</div></a>
+                <a href="#"><div class="block">Settings</div></a>
+                <a href="#"><div class="block">app web</div></a>
+                <a href="#"><div class="block">linked devices</div></a>
+               <div class="No_results_found" id="No_results_found">No results found!!!</div>
+                </div>
+          </ul>
+        <div>
+     
+    </div>
+    <div>
+        <div class="searchblock">
+            <button class="search_button" id="search_button">
+                <img src="assert/search_icon.png" alt="searching">
+            </button>
+            <input type="searchbox" class="search_box" id="searchbar"  onchange="search_keys()" placeholder="Search here"></input>
+            </div>
+    </div>
+  
+</div>
+<div class="logo">
+  <a href="#">Logo</a>
+</div>
+<div class="login_card_block">
+<button class="login_button" type="submit">Login</button>
+<button class="cart" type="submit">Cart</button>
+</div>
+    </div>
+  </body>
 </html>

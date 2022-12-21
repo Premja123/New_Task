@@ -1,4 +1,120 @@
-.heading{
-    color:red;
-    font-size: 2rem;
+html {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Top_nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to top, #72134b, #1d212c);
+  box-shadow: 4px 4px 4px 4px rgb(146, 142, 146);
+  width: auto;
+  height: 4rem;
+  padding: 0 3rem;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  padding-bottom: 0.7rem;
+}
+
+i {
+  font-style: normal;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.closeIcon {
+  display: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.menuIcon {
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+}
+.hamburger {
+  border-style: none;
+  background-color: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  z-index: -1;
+  transform: translateY(-100%);
+  transition: transform 1s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  color: white;
+  list-style: none;
+  padding-top: 5rem;
+}
+.No_results_found {
+  display: none;
+  color: black;
+}
+.showMenu {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+.searchblock {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  padding-right: 0.2rem;
+  margin-top: 0.7rem;
+  margin-left: 1.5rem;
+}
+.search_button {
+  border-style: none;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 0.2rem;
+}
+.search_box {
+  border-style: none;
+  background-color: white;
+  outline: none;
+  padding-right: 8rem;
+}
+.logo a {
+  color: white;
+  font-size: 1.5rem;
+}
+.login_card_block {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+.login_button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+.cart {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
 }
